@@ -19,7 +19,7 @@ export type ProjectDetail = {
 export const PROJECT_DATA: Record<number, ProjectDetail> = {
   1: {
     id: 1,
-    title: "Note Taking CLI",
+    title: "Hostel-Attandance-Management-Sys",
     company: "Self", 
     overview: "Hostel Attendance Management System is a modern, full-stack web application designed to streamline hostel operations with a focus on attendance tracking. The platform offers a clean, mobile-responsive interface with dedicated panels for guards. Guards can mark Attendance for Hostel . Built using the MERN stack with Firebase Authentication and JWT for secure access, the application is deployed on Render with CI/CD integration for seamless updates.",
     mainImage: "/gallery/hstl.webp",
