@@ -21,9 +21,9 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
     id: 1,
     title: "Note Taking CLI",
     company: "Self", 
-    overview: "PG Life is a modern web application designed to help users easily find and explore accommodation options such as hostels and PGs (paying guest facilities) in various cities. The platform features an intuitive, user-friendly interface where users can browse listings, view detailed information about each property, and filter results based on their preferences such as location, price, and amenities.    Note:Currently, PG Life is a frontend-only project. All data is static or mocked, and backend integration ,is planned for future updates.",
-    mainImage: "/gallery/cli.jpg",
-    link: "https://github.com/AlkaGupta680/PGLife",
+    overview: "Hostel Attendance Management System is a modern, full-stack web application designed to streamline hostel operations with a focus on attendance tracking. The platform offers a clean, mobile-responsive interface with dedicated panels for guards. Guards can mark Attendance for Hostel . Built using the MERN stack with Firebase Authentication and JWT for secure access, the application is deployed on Render with CI/CD integration for seamless updates.",
+    mainImage: "/gallery/hstl.webp",
+    link: "https://github.com/Ajeet-kumar-07/Hostel-Attandance-sys",
     // features: [
     //   {
     //     title: "login/signup",
@@ -41,6 +41,10 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
       {
         category: "Frontend",
         items: ["React", "JavaScript", "tailwindcss"]
+      },
+      {
+        category: "Backend",
+        items: ["Node", "Express", "MongoDB"]
       }
     ],
    
@@ -85,7 +89,7 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
     company: "Self learning",
     overview: "This is a full-stack To-Do List web application that helps users manage their daily tasks efficiently with seamless Google Sheets integration.It allows users to add, update, and delete tasks in real time, with all task data automatically stored and synced in a connected Google Sheet. The application features a clean and interactive user interface, along with a robust backend that handles task management, data syncing, and API communication. This project demonstrates effective integration of external APIs (Google Sheets), along with a solid understanding of full-stack development using technologies like Node.js, Express.js, and MongoDB.", 
     mainImage: "/gallery/todo.png",
-    link: "https://github.com/AlkaGupta680/node_hotels",
+    link: "https://github.com/Ajeet-kumar-07/ToDoApp-Google-Sheets",
     // features: [
     //   {
     //     title: "Make reservation",
@@ -107,7 +111,7 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
     company: "Self learning",
     overview: "Drama Blossom is a full-stack MERN web application for K-drama and K-movie enthusiasts. Users can create personal accounts to explore a curated library of Korean dramas and movies, bookmark favorites, and engage in community discussions through comments and reviews. The platform features secure user authentication, personalized watchlists, and an admin dashboard for managing content and user activity. The backend efficiently handles data management, authentication, and user sessions, while the frontend offers a modern, responsive, and user-friendly interface for a seamless entertainment experience.", 
     mainImage: "/gallery/dramaBlossom.png",
-    link: "https://github.com/AlkaGupta680/MERN-Drama-Blossom",
+    link: "https://github.com/Ajeet-kumar-07/ToDoApp-Google-Sheets",
     // features: [
     //   {
     //     title: "user authentication",

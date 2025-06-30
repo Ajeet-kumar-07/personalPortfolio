@@ -32,6 +32,14 @@ type Project = {
 // 4. Project descriptions should highlight core features and technical highlights
 const projects: Project[] = [
   {
+    id: 1,
+    title: "Hostel-Attendance-System",
+    description: "This is a full-stack Hostel Attendance Management System designed to efficiently manage student attendance and hostel operations. It features dashboards for  guards,  enabling actions like marking attendance . With a clean and responsive UI, it ensures smooth interactions across devices. Built using the MERN stack with Firebase Auth and JWT, it demonstrates skills in RESTful API development, secure authentication, and CI/CD-based deployment. Ideal for institutions aiming to digitize hostel workflows with real-time tracking and approvals.",
+    image: "/gallery/hstl.webp", // Screenshot path
+    skills: ["React", "JavaScript", "Node.js", "MongoDB","express.js"], // Tech stack
+    link: "https://github.com/Ajeet-kumar-07/Note-taking-CLI"
+  },
+  {
     id: 2,
     title: "Note-Taking App",
     description: "This is a Command Line Interface (CLI) application for efficiently managing personal notes.It allows users to create, read, update, and delete notes directly from the terminal. Designed with a clean and intuitive command structure, this tool supports features like categorization, search, and file-based storage. Built using modern JavaScript tools, this project showcases skills in CLI app development, file system interaction, and modular code organization. Ideal for developers who prefer managing notes without a GUI.",
@@ -45,7 +53,7 @@ const projects: Project[] = [
     description: "This is a full-stack To-Do List web application integrated with Google Sheets for real-time task storage and tracking.It allows users to add, update, and delete tasks through an intuitive interface, while all data is synchronized with a connected Google Sheet. The app features a clean UI, dynamic task management, and secure API handling. The backend handles authentication (if included), Google Sheets API integration, and data persistence, while the frontend offers a responsive and user-friendly experience for efficient daily planning",
     image: "/gallery/todo.png",
     skills: ["React","JavaScript" ,"Node.js", "MongoDB","express.js"],
-    link: "https://github.com/AlkaGupta680/node_hotels"
+    link: "https://github.com/Ajeet-kumar-07/ToDoApp-Google-Sheets"
   },
   // {
   //   id: 4, 
