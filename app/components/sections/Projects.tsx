@@ -55,6 +55,14 @@ const projects: Project[] = [
     skills: ["React","JavaScript" ,"Node.js", "MongoDB","express.js"],
     link: "https://github.com/Ajeet-kumar-07/ToDoApp-Google-Sheets"
   },
+  {
+    id: 4, 
+    title: "BootLoader",
+    description: "A minimal 32-bit x86 bootloader written in NASM that prints Hello world! using BIOS interrupts. Loaded at 0x7C00 and tested via QEMU, it demonstrates the basics of system boot and low-level OS development.",
+    image: "/gallery/cmd.png",
+    skills: ["C","ASM"],
+    link: "https://github.com/Ajeet-kumar-07/Bootloader"
+  },
   // {
   //   id: 4, 
   //   title: "Drama Blossom",

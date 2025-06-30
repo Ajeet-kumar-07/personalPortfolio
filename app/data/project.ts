@@ -105,13 +105,35 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
     ]
    
   },
+  // 4: {
+  //   id: 4,
+  //   title: "Drama Blossom",
+  //   company: "Self learning",
+  //   overview: "Drama Blossom is a full-stack MERN web application for K-drama and K-movie enthusiasts. Users can create personal accounts to explore a curated library of Korean dramas and movies, bookmark favorites, and engage in community discussions through comments and reviews. The platform features secure user authentication, personalized watchlists, and an admin dashboard for managing content and user activity. The backend efficiently handles data management, authentication, and user sessions, while the frontend offers a modern, responsive, and user-friendly interface for a seamless entertainment experience.", 
+  //   mainImage: "/gallery/dramaBlossom.png",
+  //   link: "https://github.com/Ajeet-kumar-07/ToDoApp-Google-Sheets",
+  //   // features: [
+  //   //   {
+  //   //     title: "user authentication",
+  //   //     description: "user can make reservation",
+  //   //     image: ""
+  //   //   }
+  //   // ],
+  //   techStack: [
+  //     {
+  //       category: "Full Stack",
+  //       items: ["React","Vite" ,"JavaScript","TailwindCSS","Nodejs","MongoDB","express",]
+  //     }
+  //   ],
+   
+  // },
   4: {
     id: 4,
-    title: "Drama Blossom",
+    title: "BootLoader",
     company: "Self learning",
-    overview: "Drama Blossom is a full-stack MERN web application for K-drama and K-movie enthusiasts. Users can create personal accounts to explore a curated library of Korean dramas and movies, bookmark favorites, and engage in community discussions through comments and reviews. The platform features secure user authentication, personalized watchlists, and an admin dashboard for managing content and user activity. The backend efficiently handles data management, authentication, and user sessions, while the frontend offers a modern, responsive, and user-friendly interface for a seamless entertainment experience.", 
-    mainImage: "/gallery/dramaBlossom.png",
-    link: "https://github.com/Ajeet-kumar-07/ToDoApp-Google-Sheets",
+    overview: "This project demonstrates how to build a minimal 32-bit x86 bootloader from scratch using NASM assembly. It prints Hello World directly to the screen by leveraging BIOS interrupts, showcasing the fundamentals of how a computer boots and transfers control to a user-defined program. The bootloader is loaded into memory at 0x7C00, adheres to the 512-byte boot sector limit, and is tested using QEMU for safe virtualization. This project serves as a foundational step toward writing a simple operating system and understanding low-level systems programming.", 
+    mainImage: "/gallery/cmd.png",
+    link: "https://github.com/Ajeet-kumar-07/Bootloader",
     // features: [
     //   {
     //     title: "user authentication",
@@ -121,12 +143,13 @@ export const PROJECT_DATA: Record<number, ProjectDetail> = {
     // ],
     techStack: [
       {
-        category: "Full Stack",
-        items: ["React","Vite" ,"JavaScript","TailwindCSS","Nodejs","MongoDB","express",]
+        category: "Assembly",
+        items: ["C","ASM"]
       }
     ],
    
-  }
+  },
+
 }
 
 // Helper function: Get project by ID
